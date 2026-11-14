@@ -16,14 +16,15 @@
   <a href="#what-it-does">What it does</a> ·
   <a href="#see-it-work">See it work</a> ·
   <a href="#the-seven-ports">The seven ports</a> ·
-  <a href="#privacy-and-safety">Privacy and safety</a>
+  <a href="#privacy-and-safety">Privacy and safety</a> ·
+  <a href="https://productroadmapvoyage.com">Play the game</a>
 </p>
 
 ---
 
 ## What it does
 
-Built for pre-seed and seed founders, often building an AI product, usually with a meeting coming. It runs the seven ports of Product Roadmap Voyage inside the agent you already use. You answer. The roadmap is built only from what you say.
+Built for pre-seed and seed founders, often building an AI product, usually with a meeting coming. It runs the seven ports of [Product Roadmap Voyage](https://productroadmapvoyage.com), the browser game, inside the agent you already use. You answer. The roadmap is built only from what you say.
 
 | Mode | What happens |
 |---|---|
@@ -155,6 +156,6 @@ Changes to the skill keep its rules: no invented numbers, every figure labelled,
 
 ## Licence and credit
 
-MIT. Created by [Nastasha Velasco](https://www.linkedin.com/in/nastasha-velasco-rodriguez/).
+MIT. Created by [Nastasha Velasco](https://www.linkedin.com/in/nastasha-velasco-rodriguez/). Play the voyage at [productroadmapvoyage.com](https://productroadmapvoyage.com).
 
 Nothing here is legal advice.

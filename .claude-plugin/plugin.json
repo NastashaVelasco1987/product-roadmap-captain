@@ -6,10 +6,12 @@
     "name": "Nastasha Velasco",
     "url": "https://www.linkedin.com/in/nastasha-velasco-rodriguez/"
   },
+  "homepage": "https://productroadmapvoyage.com",
   "license": "MIT",
   "keywords": [
     "product roadmap",
     "founders",
     "strategy"
-  ]
+  ],
+  "repository": "https://github.com/NastashaVelasco1987/product-roadmap-captain"
 }
