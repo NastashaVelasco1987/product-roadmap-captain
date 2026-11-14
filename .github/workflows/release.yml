@@ -1,0 +1,27 @@
+name: Release
+
+# When a release is published on GitHub, check the repository, build the zip
+# for the Claude app and attach it to that release.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  attach-zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the skill, manifests and links
+        run: python3 scripts/check.py
+      - name: Build the release zip
+        run: python3 scripts/build_release.py
+      - name: Attach the zip to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" dist/product-roadmap-captain.zip --clobber

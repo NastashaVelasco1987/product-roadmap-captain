@@ -1,0 +1,15 @@
+{
+  "name": "product-roadmap-captain",
+  "version": "1.0.0",
+  "description": "Build, review and rehearse a product roadmap one question at a time, in seven ports. Builds only from the founder's answers and lists every gap to overcome.",
+  "author": {
+    "name": "Nastasha Velasco",
+    "url": "https://www.linkedin.com/in/nastasha-velasco-rodriguez/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product roadmap",
+    "founders",
+    "strategy"
+  ]
+}

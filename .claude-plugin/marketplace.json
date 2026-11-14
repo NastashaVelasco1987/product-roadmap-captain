@@ -1,0 +1,14 @@
+{
+  "name": "product-roadmap-captain",
+  "owner": {
+    "name": "Nastasha Velasco"
+  },
+  "description": "Product Roadmap Captain: build, review and rehearse a product roadmap one question at a time.",
+  "plugins": [
+    {
+      "name": "product-roadmap-captain",
+      "source": "./",
+      "description": "Build, review and rehearse a product roadmap one question at a time, in seven ports."
+    }
+  ]
+}
